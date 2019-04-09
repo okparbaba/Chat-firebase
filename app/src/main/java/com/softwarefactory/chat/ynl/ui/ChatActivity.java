@@ -135,7 +135,9 @@ public class ChatActivity extends AppCompatActivity implements View.OnClickListe
         Intent result = new Intent();
         result.putExtra("idFriend", idFriend.get(0));
         setResult(RESULT_OK, result);
+        overridePendingTransition(R.anim.exit_to_bottom,R.anim.exit_to_bottom);
         this.finish();
+
     }
 
     @Override

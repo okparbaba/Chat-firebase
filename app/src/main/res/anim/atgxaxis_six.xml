@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Yannaing Lynn(Android Developer) from Myanmar on 4/2/19 9:23 AM
+  ~ Copyright (c) 2019 . All rights reserved.
+  ~ Last modified 4/2/19 9:19 AM
+  ~
+  -->
+
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+     android:duration="1500"
+     android:startOffset="1600">
+
+    <translate
+            android:fromXDelta="700"
+            android:toXDelta="0"
+    />
+    <alpha
+            android:fromAlpha="0.0"
+            android:toAlpha="1.0"/>
+
+</set>

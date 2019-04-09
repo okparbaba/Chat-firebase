@@ -86,6 +86,7 @@ public class LoginActivity extends AppCompatActivity {
                     if (firstTimeAccess) {
                         startActivity(new Intent(LoginActivity.this, MainActivity.class));
                         LoginActivity.this.finish();
+                        overridePendingTransition(R.anim.fade_in,R.anim.fade_out);
                     }
                 } else {
                     Log.d(TAG, "onAuthStateChanged:signed_out");

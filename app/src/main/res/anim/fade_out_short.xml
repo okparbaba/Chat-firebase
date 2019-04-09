@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Yannaing Lynn(Android Developer) from Myanmar on 4/2/19 9:45 AM
+  ~ Copyright (c) 2019 . All rights reserved.
+  ~ Last modified 3/29/19 4:12 PM
+  ~
+  -->
+
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+     android:interpolator="@android:anim/accelerate_decelerate_interpolator">
+    <alpha
+            android:duration="100"
+            android:fromAlpha="1.0"
+            android:toAlpha="0.0" />
+</set>

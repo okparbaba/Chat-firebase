@@ -476,6 +476,7 @@ class ListFriendsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
                         mapMark.put(id, null);
                         fragment.startActivityForResult(intent, FriendsFragment.ACTION_START_CHAT);
+                        fragment.getActivity().overridePendingTransition(R.anim.fade_in,R.anim.fade_out);
                     }
                 });
 
