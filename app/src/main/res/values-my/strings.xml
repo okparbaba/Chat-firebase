@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">ချက်မယ်</string>
+    <string name="action_settings">ဆက်တင်</string>
+    <string name="about" tools:ignore="ExtraTranslation">အကြောင်း</string>
+    <string name="login_success">လော့ခ်အင် အောင်မြင်တယ်</string>
+    <string name="login">ဝင်မယ်</string>
+    <string name="Username">အီးလ်မေးလ်</string>
+    <string name="Password">လျှိ့ဝှက်ကုဒ်</string>
+    <string name="forgot_your_password">လျှိ့ဝှက်ကုဒ်မေ့နေလား?</string>
+    <string name="go">သွားရန်</string>
+    <string name="repeat_password">လျှိ့ဝှက်ကုဒ်ထပ်ရိုက်ပါ</string>
+    <string name="next">နောက်</string>
+    <string name="register">စာရင်းသွင်း</string>
+
+    <string name="hint_username">အသုံးပြုသူတစ်ယောက်ထည့်ပါ</string>
+    <string name="hint_email_reset">သင့်အီးလ်မေးလ်ထည့်ပါ</string>
+    <string name="enter_group_name">အဖွဲ့နံမည်ထည့်ပါ</string>
+    <string name="get_all_friends">Get all friend....</string>
+    <string name="get_friend">Add friend</string>
+    <string name="enter_friend_email">Enter friend email</string>
+    <string name="email_not_found">Email not found</string>
+    <string name="finding_friend">Finding friend....</string>
+    <string name="fail">Fail</string>
+    <string name="email_not_valid">Email not valid</string>
+    <string name="add_friend">Add friend....</string>
+    <string name="firend">Friend</string>
+    <string name="user">User</string>
+    <string name="has_been_friend">has been friend</string>
+    <string name="fal">False</string>
+    <string name="false_to_add_fri">False to add friend success</string>
+    <string name="success">Success</string>
+    <string name="add_fri_success">Add friend success</string>
+    <string name="add_a_lease">Add at lease two people to create group</string>
+    <string name="save">Save</string>
+    <string name="editing">Editing....</string>
+    <string name="cannot_connect_database">Cannot connect database</string>
+    <string name="ok">OK</string>
+    <string name="registering">Registering....</string>
+</resources>

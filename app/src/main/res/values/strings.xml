@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">ChatMal</string>
+    <string name="action_settings">Settings</string>
+    <string name="about" tools:ignore="ExtraTranslation">About</string>
+    <string name="login_success">login success</string>
+    <string name="login">LOGIN</string>
+    <string name="Username">Email</string>
+    <string name="Password">Password</string>
+    <string name="forgot_your_password">Forgot your password ?</string>
+    <string name="go">GO</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="next">NEXT</string>
+    <string name="register">REGISTER</string>
+
+    <string name="hint_username">Enter a new username</string>
+    <string name="hint_email_reset">Enter your email</string>
+    <string name="enter_group_name">Enter group name</string>
+    <string name="get_all_friends">Get all friend....</string>
+    <string name="get_friend">Add friend</string>
+    <string name="enter_friend_email">Enter friend email</string>
+    <string name="email_not_found">Email not found</string>
+    <string name="finding_friend">Finding friend....</string>
+    <string name="fail">Fail</string>
+    <string name="email_not_valid">Email not valid</string>
+    <string name="add_friend">Add friend....</string>
+    <string name="firend">Friend</string>
+    <string name="user">User</string>
+    <string name="has_been_friend">has been friend</string>
+    <string name="fal">False</string>
+    <string name="false_to_add_fri">False to add friend success</string>
+    <string name="success">Success</string>
+    <string name="add_fri_success">Add friend success</string>
+    <string name="add_a_lease">Add at lease two people to create group</string>
+    <string name="save">Save</string>
+    <string name="editing">Editing....</string>
+    <string name="cannot_connect_database">Cannot connect database</string>
+    <string name="ok">OK</string>
+    <string name="registering">Registering....</string>
+</resources>
