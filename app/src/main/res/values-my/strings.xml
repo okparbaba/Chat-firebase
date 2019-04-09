@@ -37,4 +37,15 @@
     <string name="cannot_connect_database">Cannot connect database</string>
     <string name="ok">OK</string>
     <string name="registering">Registering....</string>
+    <string name="edit_group_success">Edit group success</string>
+    <string name="create_group_success">Create Group Success</string>
+    <string name="create_group_false">Create Group False</string>
+    <string name="deleting">Deleting...</string>
+    <string name="group_leaving">Group Leaving...</string>
+    <string name="cannot_delete_group">Cannot delete group right now, please try again.</string>
+    <string name="cannot_connect_server">Cannot Connect Server</string>
+    <string name="error">Error</string>
+    <string name="error_occur_leave_group">Error occurred during leaving group</string>
+    <string name="group_leaving_success">Group Leaving Successfully</string>
+    <string name="chat_team">Chat Team</string>
 </resources>

@@ -207,7 +207,7 @@ public class AddGroupActivity extends AppCompatActivity {
     private void deleteRoomForUser(final String roomId, final int userIndex) {
         if (userIndex == listIDRemove.size()) {
             dialogWait.dismiss();
-            Toast.makeText(this, "Edit group success", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getResources().getString(R.string.edit_group_success), Toast.LENGTH_SHORT).show();
             setResult(RESULT_OK, null);
             AddGroupActivity.this.finish();
         } else {
@@ -236,10 +236,10 @@ public class AddGroupActivity extends AppCompatActivity {
                             }
                                     .setTopColorRes(R.color.colorAccent)
                                     .setIcon(R.drawable.ic_add_group_dialog)
-                                    .setTitle("False")
-                                    .setMessage("Cannot connect database")
+                                    .setTitle(getResources().getString(R.string.fal))
+                                    .setMessage(getResources().getString(R.string.cannot_connect_database))
                                     .setCancelable(false)
-                                    .setConfirmButtonText("Ok")
+                                    .setConfirmButtonText(getResources().getString(R.string.ok))
                                     .show();
                         }
                     });
@@ -250,7 +250,7 @@ public class AddGroupActivity extends AppCompatActivity {
         if (userIndex == listIDChoose.size()) {
             if (!isEditGroup) {
                 dialogWait.dismiss();
-                Toast.makeText(this, "Create group success", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, getResources().getString(R.string.create_group_success), Toast.LENGTH_SHORT).show();
                 setResult(RESULT_OK, null);
                 AddGroupActivity.this.finish();
             } else {
@@ -280,10 +280,10 @@ public class AddGroupActivity extends AppCompatActivity {
                     }
                             .setTopColorRes(R.color.colorAccent)
                             .setIcon(R.drawable.ic_add_group_dialog)
-                            .setTitle("False")
-                            .setMessage("Create group false")
+                            .setTitle(getResources().getString(R.string.fal))
+                            .setMessage(getResources().getString(R.string.create_group_false))
                             .setCancelable(false)
-                            .setConfirmButtonText("Ok")
+                            .setConfirmButtonText(getResources().getString(R.string.ok))
                             .show();
                 }
             });

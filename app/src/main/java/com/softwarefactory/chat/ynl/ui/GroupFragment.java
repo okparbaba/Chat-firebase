@@ -85,13 +85,13 @@ public class GroupFragment extends Fragment implements SwipeRefreshLayout.OnRefr
         progressDialog = new LovelyProgressDialog(getContext())
                 .setCancelable(false)
                 .setIcon(R.drawable.ic_dialog_delete_group)
-                .setTitle("Deleting....")
+                .setTitle(getResources().getString(R.string.deleting))
                 .setTopColorRes(R.color.colorAccent);
 
         waitingLeavingGroup = new LovelyProgressDialog(getContext())
                 .setCancelable(false)
                 .setIcon(R.drawable.ic_dialog_delete_group)
-                .setTitle("Group leaving....")
+                .setTitle(getResources().getString(R.string.group_leaving))
                 .setTopColorRes(R.color.colorAccent);
 
         if(listGroup.size() == 0){
@@ -243,8 +243,8 @@ public class GroupFragment extends Fragment implements SwipeRefreshLayout.OnRefr
                             new LovelyInfoDialog(getContext())
                                     .setTopColorRes(R.color.colorAccent)
                                     .setIcon(R.drawable.ic_dialog_delete_group)
-                                    .setTitle("False")
-                                    .setMessage("Cannot delete group right now, please try again.")
+                                    .setTitle(getResources().getString(R.string.fal))
+                                    .setMessage(getResources().getString(R.string.cannot_delete_group))
                                     .setCancelable(false)
                                     .setConfirmButtonText("Ok")
                                     .show();
@@ -266,10 +266,10 @@ public class GroupFragment extends Fragment implements SwipeRefreshLayout.OnRefr
                             new LovelyInfoDialog(getContext())
                                     .setTopColorRes(R.color.colorAccent)
                                     .setIcon(R.drawable.ic_dialog_delete_group)
-                                    .setTitle("False")
-                                    .setMessage("Cannot connect server")
+                                    .setTitle(getResources().getString(R.string.fal))
+                                    .setMessage(getResources().getString(R.string.cannot_connect_server))
                                     .setCancelable(false)
-                                    .setConfirmButtonText("Ok")
+                                    .setConfirmButtonText(getResources().getString(R.string.ok))
                                     .show();
                         }
                     })
@@ -290,8 +290,8 @@ public class GroupFragment extends Fragment implements SwipeRefreshLayout.OnRefr
                             waitingLeavingGroup.dismiss();
                             new LovelyInfoDialog(getContext())
                                     .setTopColorRes(R.color.colorAccent)
-                                    .setTitle("Error")
-                                    .setMessage("Error occurred during leaving group")
+                                    .setTitle(getResources().getString(R.string.error))
+                                    .setMessage(getResources().getString(R.string.error_occur_leave_group))
                                     .show();
                         } else {
                             String memberIndex = "";
@@ -316,8 +316,8 @@ public class GroupFragment extends Fragment implements SwipeRefreshLayout.OnRefr
                                             GroupDB.getInstance(getContext()).deleteGroup(group.id);
                                             new LovelyInfoDialog(getContext())
                                                     .setTopColorRes(R.color.colorAccent)
-                                                    .setTitle("Success")
-                                                    .setMessage("Group leaving successfully")
+                                                    .setTitle(getResources().getString(R.string.success))
+                                                    .setMessage(getResources().getString(R.string.group_leaving_success))
                                                     .show();
                                         }
                                     })
@@ -327,8 +327,8 @@ public class GroupFragment extends Fragment implements SwipeRefreshLayout.OnRefr
                                             waitingLeavingGroup.dismiss();
                                             new LovelyInfoDialog(getContext())
                                                     .setTopColorRes(R.color.colorAccent)
-                                                    .setTitle("Error")
-                                                    .setMessage("Error occurred during leaving group")
+                                                    .setTitle(getResources().getString(R.string.error))
+                                                    .setMessage(getResources().getString(R.string.error_occur_leave_group))
                                                     .show();
                                         }
                                     });
@@ -341,8 +341,8 @@ public class GroupFragment extends Fragment implements SwipeRefreshLayout.OnRefr
                         waitingLeavingGroup.dismiss();
                         new LovelyInfoDialog(getContext())
                                 .setTopColorRes(R.color.colorAccent)
-                                .setTitle("Error")
-                                .setMessage("Error occurred during leaving group")
+                                .setTitle(getResources().getString(R.string.error))
+                                .setMessage(getResources().getString(R.string.error_occur_leave_group))
                                 .show();
                     }
                 });
